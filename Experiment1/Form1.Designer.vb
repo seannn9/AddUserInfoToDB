@@ -221,8 +221,7 @@ Partial Class Form1
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.Color.LightSteelBlue
         Me.ClientSize = New System.Drawing.Size(352, 317)
         Me.Controls.Add(Me.ConnectionStatus)
