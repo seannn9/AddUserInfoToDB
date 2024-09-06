@@ -2,10 +2,12 @@
 Public Class Form1
     Dim connection As MySqlConnection
     Dim cmd As MySqlCommand
+    Dim database_name As String = "experiment1"
+    Dim table_name As String = "student1"
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         connection = New MySqlConnection
-        connection.ConnectionString = "server=localhost;username=root;password=;database=experiment1"
+        connection.ConnectionString = "server=localhost;username=root;password=;database='" & database_name & "'"
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -41,7 +43,7 @@ Public Class Form1
                     connection.Open()
                 End If
 
-                cmd = New MySqlCommand("INSERT INTO student (FIRST_NAME, MIDDLE_NAME, LAST_NAME, NICKNAME) 
+                cmd = New MySqlCommand("INSERT INTO " & table_name & " (FIRST_NAME, MIDDLE_NAME, LAST_NAME, NICKNAME) 
                     values (@FIRST_NAME, @MIDDLE_NAME, @LAST_NAME, @NICKNAME)", connection)
                 cmd.Parameters.AddWithValue("@FIRST_NAME", TextBox1.Text)
                 cmd.Parameters.AddWithValue("@MIDDLE_NAME", TextBox2.Text)
