@@ -2,8 +2,7 @@
 Public Class Form1
     Dim connection As MySqlConnection
     Dim cmd As MySqlCommand
-    Dim database_name As String = "experiment1"
-    Dim table_name As String = "student1"
+    Dim database_name, table_name As New String("experiment1")
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         connection = New MySqlConnection
@@ -56,10 +55,14 @@ Public Class Form1
                     MsgBox("Failed to Add Record", vbExclamation, Title:="Error")
                 End If
                 'Disconnect to Database after user adds a record
-                connection.Close()
-                ConnectionStatus.Text = "Disconnected"
-                ConnectionStatus.ForeColor = Color.DarkRed
-                Button1.Text = "Connect to Database"
+                'connection.Close()
+                'ConnectionStatus.Text = "Disconnected"
+                'ConnectionStatus.ForeColor = Color.DarkRed
+                'Button1.Text = "Connect to Database"
+                TextBox1.Clear()
+                TextBox2.Clear()
+                TextBox3.Clear()
+                TextBox4.Clear()
             End If
         Catch ex As Exception
             MsgBox(ex.Message)

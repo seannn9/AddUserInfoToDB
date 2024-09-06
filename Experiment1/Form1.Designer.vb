@@ -64,6 +64,7 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Franklin Gothic Medium", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label3.Location = New System.Drawing.Point(11, 149)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(88, 21)
@@ -223,6 +224,7 @@ Partial Class Form1
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(352, 317)
         Me.Controls.Add(Me.ConnectionStatus)
         Me.Controls.Add(Me.Button3)
@@ -242,6 +244,7 @@ Partial Class Form1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(368, 356)
+        Me.MinimizeBox = False
         Me.MinimumSize = New System.Drawing.Size(368, 356)
         Me.Name = "Form1"
         Me.Text = "T-CPET411LA Experiment 1"
