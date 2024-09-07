@@ -50,15 +50,10 @@ Public Class Form1
                 cmd.Parameters.AddWithValue("@NICKNAME", TextBox4.Text)
                 Dim i As Integer = cmd.ExecuteNonQuery
                 If i > 0 Then
-                    MsgBox("Successfully Added Record", vbInformation, Title:="Success")
+                    MsgBox("Successfully Added Record To " & table_name & "", vbInformation, Title:="Success")
                 Else
-                    MsgBox("Failed to Add Record", vbExclamation, Title:="Error")
+                    MsgBox("Failed to Add Record To " & table_name & "", vbExclamation, Title:="Error")
                 End If
-                'Disconnect to Database after user adds a record
-                'connection.Close()
-                'ConnectionStatus.Text = "Disconnected"
-                'ConnectionStatus.ForeColor = Color.DarkRed
-                'Button1.Text = "Connect to Database"
                 TextBox1.Clear()
                 TextBox2.Clear()
                 TextBox3.Clear()
