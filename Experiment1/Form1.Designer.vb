@@ -53,7 +53,7 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Franklin Gothic Medium", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 8)
+        Me.Label1.Location = New System.Drawing.Point(64, 8)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(321, 42)
         Me.Label1.TabIndex = 0
@@ -66,7 +66,7 @@ Partial Class Form1
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Franklin Gothic Medium", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label3.Location = New System.Drawing.Point(8, 145)
+        Me.Label3.Location = New System.Drawing.Point(36, 167)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(84, 21)
         Me.Label3.TabIndex = 2
@@ -77,7 +77,7 @@ Partial Class Form1
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Franklin Gothic Medium", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(8, 177)
+        Me.Label4.Location = New System.Drawing.Point(36, 217)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(102, 21)
         Me.Label4.TabIndex = 3
@@ -88,7 +88,7 @@ Partial Class Form1
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Franklin Gothic Medium", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(8, 209)
+        Me.Label5.Location = New System.Drawing.Point(36, 267)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(84, 21)
         Me.Label5.TabIndex = 4
@@ -99,7 +99,7 @@ Partial Class Form1
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Franklin Gothic Medium", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(8, 241)
+        Me.Label6.Location = New System.Drawing.Point(36, 317)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(80, 21)
         Me.Label6.TabIndex = 5
@@ -107,34 +107,34 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(117, 142)
+        Me.TextBox1.Font = New System.Drawing.Font("Franklin Gothic Medium", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(144, 160)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(216, 26)
+        Me.TextBox1.Size = New System.Drawing.Size(269, 31)
         Me.TextBox1.TabIndex = 6
         '
         'TextBox2
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(117, 174)
+        Me.TextBox2.Font = New System.Drawing.Font("Franklin Gothic Medium", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(144, 210)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(216, 26)
+        Me.TextBox2.Size = New System.Drawing.Size(269, 31)
         Me.TextBox2.TabIndex = 7
         '
         'TextBox3
         '
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(117, 206)
+        Me.TextBox3.Font = New System.Drawing.Font("Franklin Gothic Medium", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.Location = New System.Drawing.Point(144, 260)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(216, 26)
+        Me.TextBox3.Size = New System.Drawing.Size(269, 31)
         Me.TextBox3.TabIndex = 8
         '
         'TextBox4
         '
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(117, 238)
+        Me.TextBox4.Font = New System.Drawing.Font("Franklin Gothic Medium", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.Location = New System.Drawing.Point(144, 310)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(216, 26)
+        Me.TextBox4.Size = New System.Drawing.Size(269, 31)
         Me.TextBox4.TabIndex = 9
         '
         'Button1
@@ -144,7 +144,7 @@ Partial Class Form1
         Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.Location = New System.Drawing.Point(12, 88)
+        Me.Button1.Location = New System.Drawing.Point(12, 95)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(154, 37)
         Me.Button1.TabIndex = 10
@@ -161,7 +161,7 @@ Partial Class Form1
         Me.Button2.FlatAppearance.BorderSize = 0
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button2.Location = New System.Drawing.Point(208, 88)
+        Me.Button2.Location = New System.Drawing.Point(312, 95)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(125, 37)
         Me.Button2.TabIndex = 11
@@ -173,7 +173,7 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button3.Location = New System.Drawing.Point(242, 270)
+        Me.Button3.Location = New System.Drawing.Point(322, 359)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(91, 21)
         Me.Button3.TabIndex = 12
@@ -186,7 +186,7 @@ Partial Class Form1
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Franklin Gothic Medium", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(67, 4)
+        Me.Label7.Location = New System.Drawing.Point(119, 4)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(210, 17)
         Me.Label7.TabIndex = 13
@@ -199,7 +199,7 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Location = New System.Drawing.Point(0, -3)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(352, 54)
+        Me.Panel1.Size = New System.Drawing.Size(449, 54)
         Me.Panel1.TabIndex = 14
         '
         'ConnectionStatus
@@ -208,7 +208,7 @@ Partial Class Form1
         Me.ConnectionStatus.BackColor = System.Drawing.Color.Transparent
         Me.ConnectionStatus.Font = New System.Drawing.Font("Franklin Gothic Medium", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ConnectionStatus.ForeColor = System.Drawing.Color.DarkRed
-        Me.ConnectionStatus.Location = New System.Drawing.Point(65, 62)
+        Me.ConnectionStatus.Location = New System.Drawing.Point(65, 71)
         Me.ConnectionStatus.Name = "ConnectionStatus"
         Me.ConnectionStatus.Size = New System.Drawing.Size(101, 21)
         Me.ConnectionStatus.TabIndex = 15
@@ -219,9 +219,9 @@ Partial Class Form1
         '
         Me.Panel2.BackColor = System.Drawing.Color.CornflowerBlue
         Me.Panel2.Controls.Add(Me.Label7)
-        Me.Panel2.Location = New System.Drawing.Point(0, 291)
+        Me.Panel2.Location = New System.Drawing.Point(0, 386)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(352, 47)
+        Me.Panel2.Size = New System.Drawing.Size(449, 47)
         Me.Panel2.TabIndex = 16
         '
         'Label2
@@ -230,7 +230,7 @@ Partial Class Form1
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Franklin Gothic Medium", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label2.Location = New System.Drawing.Point(12, 62)
+        Me.Label2.Location = New System.Drawing.Point(12, 71)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(58, 21)
         Me.Label2.TabIndex = 17
@@ -243,7 +243,7 @@ Partial Class Form1
         Me.BackColor = System.Drawing.Color.LightSteelBlue
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(345, 317)
+        Me.ClientSize = New System.Drawing.Size(449, 409)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.ConnectionStatus)
         Me.Controls.Add(Me.Button3)
@@ -261,8 +261,6 @@ Partial Class Form1
         Me.Controls.Add(Me.Panel2)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(361, 356)
-        Me.MinimumSize = New System.Drawing.Size(361, 356)
         Me.Name = "Form1"
         Me.Text = "T-CPET411LA Experiment 1"
         Me.Panel1.ResumeLayout(False)
