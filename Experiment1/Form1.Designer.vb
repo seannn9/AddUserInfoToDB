@@ -141,6 +141,7 @@ Partial Class Form1
         '
         Me.Button1.BackColor = System.Drawing.Color.Transparent
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button1.Location = New System.Drawing.Point(12, 88)
@@ -156,6 +157,7 @@ Partial Class Form1
         '
         Me.Button2.BackColor = System.Drawing.Color.Transparent
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button2.FlatAppearance.BorderSize = 0
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -170,6 +172,7 @@ Partial Class Form1
         '
         'Button3
         '
+        Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button3.Location = New System.Drawing.Point(242, 270)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(91, 21)
